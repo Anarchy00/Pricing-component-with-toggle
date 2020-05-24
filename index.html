@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Pricing component with toggle]</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div class="page_wrapper">
+    <header>
+      <h1> Our Pricing</h1>
+      <div class="swithCtl">
+        Annually
+        <label class="switch">
+          <input type="checkbox" checked>
+          <span class="slider round"></span>
+        </label>
+        Monthly
+      </div>
+    </header>
+    <main>
+      <div class="basic card">
+        <h2> Basic</h2>
+        <div class="container">
+          <div class="pricing">
+            <span class="monthly"><span class="dollar">&dollar;</span>19.99</span>
+            <span class="yearly"><span class="dollar">&dollar;</span>199.99</span>
+          </div>
+          <div class="storage">
+            <p> 500 GB Storage </p>
+            <p> 2 Users Allowed </p>
+            <p>Send up to 3 GB</p>
+          </div>
+          <input type="button" value="Learn More">
+        </div>
+      </div>
+
+      <div class="professional card">
+        <h2>Professional</h2>
+        <div class="container">
+          <div class="pricing">
+            <span class="monthly"><span class="dollar">&dollar;</span>24.99</span>
+            <span class="yearly"><span class="dollar">&dollar;</span>249.99</span>
+          </div>
+          <div class="storage">
+            <p> 1 TB Storage</p>
+            <p> 5 Users Allowed</p>
+            <p> Send up to 10 GB</p>
+          </div>
+          <input type="button" value="Learn More">
+        </div>
+      </div>
+
+      <div class="master card">
+        <h2> Master</h2>
+        <div class="container">
+          <div class="pricing">
+            <span class="monthly"><span class="dollar">&dollar;</span>39.99</span>
+            <span class="yearly"><span class="dollar">&dollar;</span>399.99</span>
+          </div>
+          <div class="storage">
+            <p>2 TB Storage</p>
+            <p>10 Users Allowed</p>
+            <p> Send up to 20 GB</p>
+          </div>
+          <input type="button" value="Learn More">
+        </div>
+      </div>
+
+    </main>
+
+
+
+  </div>
+  <script src="toggle.js"></script>  
+</body>
+</html>
